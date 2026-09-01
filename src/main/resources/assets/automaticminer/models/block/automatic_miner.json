@@ -1,0 +1,24 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "automaticminer:blocks/miner_side",
+    "front": "automaticminer:blocks/miner_front",
+    "side": "automaticminer:blocks/miner_side",
+    "top": "automaticminer:blocks/miner_top",
+    "bottom": "automaticminer:blocks/miner_bottom"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down":  { "texture": "#bottom", "cullface": "down" },
+        "up":    { "texture": "#top",    "cullface": "up" },
+        "north": { "texture": "#front",  "cullface": "north" },
+        "south": { "texture": "#side",   "cullface": "south" },
+        "west":  { "texture": "#side",   "cullface": "west" },
+        "east":  { "texture": "#side",   "cullface": "east" }
+      }
+    }
+  ]
+}
